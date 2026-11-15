@@ -8,7 +8,7 @@
   "os": "macOS-27.2-arm64-arm-64bit-Mach-O"
  },
  "processes": 10,
- "git_commit": "not a git repository yet",
+ "git_commit": "0c408e3d54613f80e7ddf819b1e6a195095d7324",
  "giant": {
   "mass_solar": 0.0009547918983127075,
   "a_au": 5.2038,
