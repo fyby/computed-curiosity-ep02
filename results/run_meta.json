@@ -1,0 +1,132 @@
+{
+ "rebound_version": "5.2.2",
+ "numpy": "2.5.4",
+ "python": "3.14.3",
+ "machine": {
+  "cpu": "Apple M4",
+  "cores": 10,
+  "os": "macOS-27.2-arm64-arm-64bit-Mach-O"
+ },
+ "processes": 10,
+ "git_commit": "not a git repository yet",
+ "giant": {
+  "mass_solar": 0.0009547918983127075,
+  "a_au": 5.2038,
+  "e": 0.0487,
+  "period_yr": 11.865161766490191,
+  "hill_au": 0.3552900842188927
+ },
+ "integrator": {
+  "name": "WHFast",
+  "coordinates": "democratic heliocentric",
+  "corrector": 0,
+  "safe_mode": 0,
+  "zones": [
+   {
+    "zone": "A",
+    "a_from": 1.56114,
+    "a_to": 1.72,
+    "dt_yr": 0.04943817402704246,
+    "dt": "P_G/240"
+   },
+   {
+    "zone": "B",
+    "a_from": 1.72,
+    "a_to": 2.25,
+    "dt_yr": 0.06591756536938995,
+    "dt": "P_G/180"
+   },
+   {
+    "zone": "C",
+    "a_from": 2.25,
+    "a_to": 3.6,
+    "dt_yr": 0.09887634805408492,
+    "dt": "P_G/120"
+   },
+   {
+    "zone": "D",
+    "a_from": 3.6,
+    "a_to": 10.4076,
+    "dt_yr": 0.19775269610816984,
+    "dt": "P_G/60"
+   }
+  ],
+  "event_check": "every P_G/15 (segment closest-approach test)",
+  "element_sample": "every P_G/3",
+  "note": "internal coordinates rebuilt from the synchronised state at every check (did_modify_particles), which makes chunking and resume bit-identical (V8)"
+ },
+ "ias15": {
+  "settings": "REBOUND defaults, exact_finish_time = 0",
+  "radii_au": {
+   "star": 0.0046505,
+   "giant": 0.00046733
+  }
+ },
+ "seeds": {
+  "E1": 2000001,
+  "E2": "E1 ids 0-99,999",
+  "E3": 2000003,
+  "validation": "2_100_000 + test number (V5: +50+k)"
+ },
+ "e1_decision": {
+  "phase1_laps": 169,
+  "phase1_years": 2005.2123385368423,
+  "phase1_wall_s": 175.01971817016602,
+  "phase1_planet_steps": 10981207268,
+  "throughput_planet_steps_per_s": 62742686.26877417,
+  "remaining_planet_steps_at_50kyr": 252085209000,
+  "projected_total_min_at_50kyr": 73.87970282865281,
+  "limit_min": 85.0,
+  "fallback_used": false,
+  "T_nominal_yr": 50000.0,
+  "n_laps": 4214,
+  "T_exact_yr": 49999.791683989664,
+  "processes": 10,
+  "decided": "2026-11-14 12:05:18"
+ },
+ "stage_wall_s": {
+  "validation": 445.02,
+  "e1": 4302.2,
+  "e2_e00": 97.01,
+  "e2_e010": 94.23,
+  "e2_e023": 84.99,
+  "e2_e04": 64.0,
+  "e2_m01": 104.16,
+  "e2_m03": 101.61,
+  "e2_m3": 90.25,
+  "e2_m10": 56.18,
+  "e3": 343.92,
+  "replays": 16.42
+ },
+ "wall_time_min": 96.6665,
+ "total_planet_steps": 296608871645,
+ "total_planets": 2105001,
+ "T_main_used_yr": 49999.791683989664,
+ "generated": "2026-11-14 14:32:17",
+ "real_data": {
+  "source": "https://ssd-api.jpl.nasa.gov/sbdb_query.api",
+  "file": "real_asteroids_20261114.json",
+  "retrieved_utc_date": "2026-11-14",
+  "queries": [
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C1.56%22%2C%22a%7CLT%7C2.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C2.06%22%2C%22a%7CLT%7C2.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C2.56%22%2C%22a%7CLT%7C3.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C3.06%22%2C%22a%7CLT%7C3.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C3.56%22%2C%22a%7CLT%7C4.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C4.06%22%2C%22a%7CLT%7C4.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C4.56%22%2C%22a%7CLT%7C5.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C5.06%22%2C%22a%7CLT%7C5.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C5.56%22%2C%22a%7CLT%7C6.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C6.06%22%2C%22a%7CLT%7C6.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C6.56%22%2C%22a%7CLT%7C7.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C7.06%22%2C%22a%7CLT%7C7.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C7.56%22%2C%22a%7CLT%7C8.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C8.06%22%2C%22a%7CLT%7C8.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C8.56%22%2C%22a%7CLT%7C9.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C9.06%22%2C%22a%7CLT%7C9.56%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CGE%7C9.56%22%2C%22a%7CLT%7C10.06%22%5D%7D",
+   "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Cclass&sb-kind=a&sb-cdata=%7B%22AND%22%3A%5B%22a%7CRG%7C10.06%7C10.41%22%5D%7D"
+  ],
+  "fields": "a,e,i,class"
+ }
+}

@@ -1,0 +1,3 @@
+11:55:35 2 chunks, 0 already done, 2 to run, 10 processes
+11:55:37 chunk 1/2 chunk_000.npz n=5000 alive=1210 wall=2s elapsed=0.0 min
+11:55:37 chunk 2/2 chunk_001.npz n=5000 alive=1287 wall=2s elapsed=0.0 min

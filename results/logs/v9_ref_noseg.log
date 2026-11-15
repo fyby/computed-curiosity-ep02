@@ -1,0 +1,6 @@
+11:55:49 5 chunks, 0 already done, 5 to run, 10 processes
+11:55:53 chunk 1/5 chunk_000.npz n=365 alive=365 wall=4s elapsed=0.1 min
+11:55:56 chunk 2/5 chunk_003.npz n=7683 alive=2528 wall=7s elapsed=0.1 min
+11:55:57 chunk 3/5 chunk_001.npz n=1202 alive=1202 wall=7s elapsed=0.1 min
+11:56:00 chunk 4/5 chunk_002.npz n=3068 alive=3054 wall=11s elapsed=0.2 min
+11:56:02 chunk 5/5 chunk_004.npz n=7682 alive=7189 wall=13s elapsed=0.2 min

@@ -1,0 +1,16 @@
+11:48:52 15 chunks, 0 already done, 15 to run, 10 processes
+11:49:08 chunk 1/15 chunk_000.npz n=1731 alive=1731 wall=15s elapsed=0.3 min
+11:49:10 chunk 2/15 chunk_003.npz n=3832 alive=3832 wall=17s elapsed=0.3 min
+11:49:10 chunk 3/15 chunk_004.npz n=3831 alive=3831 wall=17s elapsed=0.3 min
+11:49:11 chunk 4/15 chunk_006.npz n=3831 alive=3831 wall=18s elapsed=0.3 min
+11:49:11 chunk 5/15 chunk_005.npz n=3831 alive=3831 wall=18s elapsed=0.3 min
+11:49:11 chunk 6/15 chunk_002.npz n=3035 alive=3035 wall=18s elapsed=0.3 min
+11:49:11 chunk 7/15 chunk_001.npz n=3035 alive=3035 wall=18s elapsed=0.3 min
+11:49:14 chunk 8/15 chunk_009.npz n=9609 alive=9609 wall=20s elapsed=0.4 min
+11:49:14 chunk 9/15 chunk_007.npz n=9610 alive=9610 wall=20s elapsed=0.4 min
+11:49:14 chunk 10/15 chunk_008.npz n=9610 alive=9610 wall=20s elapsed=0.4 min
+11:49:19 chunk 11/15 chunk_010.npz n=9609 alive=9609 wall=10s elapsed=0.4 min
+11:49:20 chunk 12/15 chunk_014.npz n=9609 alive=9609 wall=8s elapsed=0.5 min
+11:49:20 chunk 13/15 chunk_013.npz n=9609 alive=9609 wall=9s elapsed=0.5 min
+11:49:20 chunk 14/15 chunk_012.npz n=9609 alive=9609 wall=9s elapsed=0.5 min
+11:49:20 chunk 15/15 chunk_011.npz n=9609 alive=9609 wall=9s elapsed=0.5 min

@@ -1,0 +1,47 @@
+=== real === 13:41:03
+[real] a 1.56-2.06: 52555 rows
+[real] a 2.06-2.56: 479307 rows
+[real] a 2.56-3.06: 682025 rows
+[real] a 3.06-3.56: 312632 rows
+[real] a 3.56-4.06: 8735 rows
+[real] a 4.06-4.56: 303 rows
+[real] a 4.56-5.06: 320 rows
+[real] a 5.06-5.56: 16368 rows
+[real] a 5.56-6.06: 176 rows
+[real] a 6.06-6.56: 77 rows
+[real] a 6.56-7.06: 48 rows
+[real] a 7.06-7.56: 51 rows
+[real] a 7.56-8.06: 35 rows
+[real] a 8.06-8.56: 35 rows
+[real] a 8.56-9.06: 19 rows
+[real] a 9.06-9.56: 19 rows
+[real] a 9.56-10.06: 30 rows
+[real] a 10.06-10.41: 10 rows
+{
+ "date": "2026-11-14",
+ "total": 1580513,
+ "box": 1552745,
+ "lane_4p2_5p05": 483,
+ "hilda_range_3p7_4p2": 8399,
+ "trojans_tjn": 16472,
+ "ranges": {
+  "2.06-3.28": 1466051,
+  "3.28-3.7": 8368,
+  "5.05-5.35": 16181,
+  "5.35-10.41": 724,
+  "2.44-2.48": 31805,
+  "2.48-2.52": 9132,
+  "2.52-2.56": 58669,
+  "2.80-2.84": 21494,
+  "3.26-3.30": 1097
+ },
+ "mba": 1396520,
+ "file": "real_asteroids_20261114.json"
+}
+=== real done in 2.3 min ===
+=== results === 13:43:19
+[results] 84 placeholders written to /Users/pepa/sim-channel/episodes/ep02-million-planets/sim/results/RESULTS.json
+=== results done in 0.9 min ===
+=== previews === 13:44:16
+[previews] written to /Users/pepa/sim-channel/episodes/ep02-million-planets/sim/results/preview
+=== previews done in 0.1 min ===
